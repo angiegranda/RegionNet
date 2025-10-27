@@ -1,9 +1,9 @@
 ## RegionNet 
 ### Region-Based Recommender System
 
-- ** Student: Angie Aslhy Granda Nunez  
-- ** Supervisor: doc. RNDr. Iveta Mrázová, CSc.  
-- ** Individual Software Project NPRG045 – Summer 2025  
+- **Student: Angie Aslhy Granda Nunez**  
+- **Supervisor: doc. RNDr. Iveta Mrázová, CSc.**  
+- **Individual Software Project NPRG045 – Summer 2025**  
 
 ## Project Specifications  
 
