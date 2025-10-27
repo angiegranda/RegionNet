@@ -1,0 +1,6 @@
+joblib
+matplotlib
+numpy
+pytest
+scikit-learn
+SQLAlchemy

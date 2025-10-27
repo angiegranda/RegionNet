@@ -1,0 +1,32 @@
+#!/bin/bash
+#PBS -N my_heavy_job
+#PBS -q large_mem
+#PBS -l select=1:ncpus=32:mem=515gb        
+#PBS -l walltime=3:00:00   
+#PBS -o my_job_output.txt
+#PBS -e my_job_error.txt
+#PBS -V
+
+cd ~/hotel_recommender/app
+
+# Activate your virtual environment
+source myenv/bin/activate
+
+# Run your Python program
+python program.py \
+    --amenities_pc 40 \
+    --styles_pc 20 \
+    --min_num_author_training_reviews 2 \
+    --num_authors_display 5 \
+    --num_recommendations 5 \
+    --regions 1 \
+    --states 3 7 12 16 17 \
+    --similarity_function True \
+    --random_author True \
+    --stats_filename Euro \
+    --alpha 0.5 \
+    --latent_factors 15 \
+    --lr 0.01 \
+    --reg 0.01 \
+    --epochs 15
+

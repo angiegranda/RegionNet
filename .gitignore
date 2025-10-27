@@ -1,0 +1,12 @@
+env/
+app/Databases/utilities/*.pkl
+app/Databases/databases/
+app/Databases/input_data/
+.DS_Store
+app/.DS_Store
+app/pytest_cache/
+app/__pycache__/
+Diary/
+results/pytest_cache/
+results/__pycache__/
+pytest.ini
