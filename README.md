@@ -64,11 +64,6 @@ Modules:
     - stats.py: Reports statistics of the recommender model. Application Class owns it and hence passes the instance of the Hybrid Recommender.
 For more information see Report.pdf.
 
-## Extension to Bachelor Thesis  
-
-- Extend the software project to support the recommendation of hotels for **groups of people** (considering different nationalities, travel purposes, or age groups).  
-- Implement a **neural network model**, such as a **Restricted Boltzmann Machine (RBM)** or a **Deep Belief Network (DBN)**, to enhance the recommendation system's performance.  
-
 ## Bibliography  
 
 1. Aggarwal, C. C. (2016). Recommender systems: The textbook. Springer. Available from Springer at [link](https://link.springer.com/book/10.1007/978-3-319-29659-3)
